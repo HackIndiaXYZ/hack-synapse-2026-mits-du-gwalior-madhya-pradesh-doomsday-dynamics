@@ -141,3 +141,17 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+# MRI datasets and generated medical images
+Task01_BrainTumour/
+Task01_BrainTumour.tar
+processed/
+raw/
+*.nii
+*.nii.gz
+
+# Python cache
+__pycache__/
+*.pyc
+splits/
+old_steps/
